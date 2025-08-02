@@ -41,6 +41,7 @@ function createOneSlide(data) {
     const codeLinks = document.createElement('a')
     const codeLink = document.createElement('a')
     codeLink.href = data.github
+    codeLink.target.setAttribute("target", "_blank");
     codeLink.innerHTML = '<i class="demo-icon icon-github-circled"></i>Github'
     codeLinks.append(codeLink)
     if (data.serverCode.length) {
