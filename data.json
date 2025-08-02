@@ -12,7 +12,7 @@
         "title": "Tetris",
         "img": "images/tetris.png",
         "technology": "JavaScript",
-        "app": "projects/Tetris/index.html",
+        "app": "./projects/Tetris/index.html",
         "github": "https://github.com/JohnyXDDD/Tetris",
         "extra": "",
         "serverCode": ""
