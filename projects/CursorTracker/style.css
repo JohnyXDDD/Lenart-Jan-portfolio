@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100svh;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100svh;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    max-height: 100%;
+}
+
+.eye {
+    height: 18px;
+    width: 18px;
+    background-color: #000;
+    position: absolute;
+    border-radius: 50%
+}
+
+.right {
+    top: 36%;
+    left: 70%;
+
+}
+
+.left {
+    top: 32.5%;
+    right: 37.5%;
+}
+
+@media(max-width:1000px) {
+    .eye {
+        height: 16px;
+        width: 16px;
+    }
+}
+
+@media(max-width:900px) {
+    .eye {
+        height: 13px;
+        width: 13px;
+    }
+}
+
+@media(max-width:768px) {
+    .eye {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+@media(max-width:500px) {
+    .eye {
+        height: 8px;
+        width: 8px;
+    }
+}

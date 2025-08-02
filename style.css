@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    min-height: 100svh;
+    background: rgb(0, 0, 0) 99.4%;
+    /* overflow: ; */
+    overflow-y: hidden;
+    /* background: radial-gradient(circle at 24.1% 68.8%, rgb(27, 27, 27) 0%, rgb(0, 0, 0) 99.4%) no-repeat center /cover; */
+}
+
+* {
+    box-sizing: border-box;
+    color: #dbd8e3;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center {
+    padding: 0 2%;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    text-transform: uppercase;
+    position: fixed;
+    font-size: 1.2rem;
+    top: 0;
+    height: 10svh;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0) 99.4%;
+}
+
+header h1 {
+    margin: 12px 0;
+}
+
+.menu {
+    max-width: 360px;
+    width: 100%;
+}
+
+ul.menu li>a {
+    padding: 4px 8px;
+}
+
+.aboutMe {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe>div.flexbox {
+    flex-direction: column;
+}
+
+.image-container {
+    margin-bottom: 8px;
+}
+
+.image-container img {
+    height: 360px;
+    border-radius: 50%;
+}
+
+.contact {
+    margin-top: 16px;
+}
+
+.text-container h2,
+.text-container h3 {
+    text-transform: uppercase
+}
+
+.text-container h2 {
+    margin-top: 0
+}
+
+.text-container {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.text-container ul {
+    padding: 0 0 0 40px;
+    list-style: circle
+}
+
+.additional {
+    margin: 4px 0;
+}
+
+.projects {
+    height: 85svh;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectGallery {
+    padding: 32px 0;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 300%;
+    width: 50px;
+    height: 50px;
+    margin: 0 16px;
+}
+
+.slideShow {
+    height: 100%;
+    width: 100%;
+}
+
+.project {
+    width: 100%;
+    height: 100%;
+}
+
+
+.slide {
+    border-radius: 8px;
+    width: 0;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.animation {
+    transition: opacity 200ms ease-in-out;
+}
+
+a.title {
+    font-size: 120%;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/* .slide img {
+    max-width: 100%;
+    min-height: 100%;
+} */
+
+.active {
+    width: 100%;
+}
+
+/* .active {
+    width: 800px;
+    /* transition: linear width 1000ms; */
+/* } */
+
+/* .project {
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    transition: linear width 1000ms;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+} */
+
+/* .project a.title {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 700;
+    padding: 8px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    transition: linear opacity 200ms;
+} */
+
+/* .project a,
+.project p {
+    text-wrap: nowrap;
+    text-align: center;
+} */
+
+.infoBox {
+    height: 30%;
+    text-align: center;
+    transition: linear opacity 200ms;
+}
+
+
+
+footer {
+    height: 5svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+i {
+    margin: 0 4px;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        font-size: 90%;
+    }
+
+    header h1 {
+        margin-right: 16px;
+    }
+
+    .menu {
+        max-width: 280px;
+    }
+
+    .text-container {
+        font-size: 100%;
+    }
+
+    .image-container img {
+        height: 340px;
+    }
+
+    .projects p {
+        font-size: 85%;
+    }
+
+    .infoBox a {
+        font-size: 95%;
+    }
+
+    button {
+        font-size: 200%;
+        margin: 0 8px;
+    }
+
+
+
+    .projects h2 {
+        margin: 12px 0;
+    }
+
+    .slideShow {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 50px;
+    }
+
+    .project {
+        grid-row: 1/2;
+        grid-column: 1/3;
+    }
+
+    button:nth-child(1) {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        margin: 0 8px 0 auto;
+    }
+
+    button:nth-child(3) {
+        grid-row: 2/2;
+        grid-column: 2/3;
+        margin: 0 auto 0 8px;
+    }
+
+    .projectGallery {
+        padding: 24px 0;
+    }
+
+}
+
+@media (max-width: 512px) {
+    header {
+        font-size: 75%;
+    }
+
+    header h1 {
+        margin-right: 16px;
+    }
+
+    .menu {
+        max-width: 250px;
+    }
+
+    .text-container {
+        font-size: 90%;
+    }
+
+    .image-container img {
+        height: 320px;
+    }
+
+    .contact {
+        font-size: 85%;
+    }
+
+    .slideShow {
+        height: 55%
+    }
+}
+
+
+@media (pointer:coarse) {
+    body {
+        overflow: auto;
+    }
+
+    .center {
+        padding: 0 4%;
+    }
+
+    .image-container img {
+        height: 25svh;
+    }
+
+    .aboutMe {
+        font-size: 90%;
+    }
+
+    .projectGallery {
+        padding: 8px 0;
+    }
+
+    ul.menu li>a {
+        padding: 4px 6px;
+    }
+}

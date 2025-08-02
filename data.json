@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Warships online",
+        "img": "images/warships.png",
+        "technology": "Javascript, Node",
+        "app": "https://statki-online.pl/",
+        "github": "https://github.com/JohnyXDDD/statki_online",
+        "extra": "Czas gry - 5 minut (ograniczenia darmowego planu)",
+        "serverCode": "https://github.com/JohnyXDDD/statki_online_backend_server_v7.0"
+    },
+    {
+        "title": "Tetris",
+        "img": "images/tetris.png",
+        "technology": "JavaScript",
+        "app": "projects/Tetris/index.html",
+        "github": "https://github.com/JohnyXDDD/Tetris",
+        "extra": "",
+        "serverCode": ""
+    },
+    {
+        "title": "Memory",
+        "img": "images/memoryGame.png",
+        "technology": "JavaScript",
+        "app": "projects/Memory",
+        "github": "https://github.com/JohnyXDDD/Memory/tree/main/Memory",
+        "extra": "",
+        "serverCode": ""
+    },
+    {
+        "title": "WeatherApp",
+        "img": "images/weatherApp.png",
+        "technology": "React,Node",
+        "app": "https://reactweatherapp-mwsi.onrender.com",
+        "github": "https://github.com/JohnyXDDD/ReactWeatherApp",
+        "extra": "",
+        "serverCode": "https://github.com/JohnyXDDD/apiserver"
+    },
+    {
+        "title": "Tenzies",
+        "img": "images/tenzies.png",
+        "technology": "React",
+        "app": "https://tenzie.onrender.com/",
+        "github": "https://github.com/JohnyXDDD/tenzie/tree/master",
+        "extra": "",
+        "serverCode": ""
+    },
+    {
+        "title": "Hangman",
+        "img": "images/hangman.png",
+        "technology": "React",
+        "app": "https://hangman-3rke.onrender.com/",
+        "github": "https://github.com/JohnyXDDD/hangman/tree/master",
+        "extra": "",
+        "serverCode": ""
+    },
+    {
+        "title": "Minesweeper",
+        "img": "images/minesweeper.png",
+        "technology": "JavaScript",
+        "app": "https://saper.onrender.com/",
+        "github": "https://github.com/JohnyXDDD/saper",
+        "extra": "",
+        "serverCode": ""
+    }
+]
