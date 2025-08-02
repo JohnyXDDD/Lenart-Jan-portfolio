@@ -3,7 +3,7 @@
         "title": "Warships online",
         "img": "images/warships.png",
         "technology": "Javascript, Node",
-        "app": "https://statki-online.pl/",
+        "app": "https://statki-online-frontend.onrender.com/",
         "github": "https://github.com/JohnyXDDD/statki_online",
         "extra": "Czas gry - 5 minut (ograniczenia darmowego planu)",
         "serverCode": "https://github.com/JohnyXDDD/statki_online_backend_server_v7.0"
