@@ -12,7 +12,7 @@
         "title": "Tetris",
         "img": "images/tetris.png",
         "technology": "JavaScript",
-        "app": "./projects/Tetris/index.html",
+        "app": "projects/Tetris/index.html",
         "github": "https://github.com/JohnyXDDD/Tetris",
         "extra": "",
         "serverCode": ""
@@ -21,7 +21,7 @@
         "title": "Memory",
         "img": "images/memoryGame.png",
         "technology": "JavaScript",
-        "app": "projects/Memory",
+        "app": "projects/Memory/index.html",
         "github": "https://github.com/JohnyXDDD/Memory/tree/main/Memory",
         "extra": "",
         "serverCode": ""
