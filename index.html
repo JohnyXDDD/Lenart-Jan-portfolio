@@ -1,75 +1,76 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jan Lenart - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="fontello/css/fontello.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontello/css/fontello.css" />
     <script defer src="script.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="center flexbox">
-        <h1>Lenart Jan</h1>
-        <ul class="flexbox menu">
-            <li><a href="O mnie" id="goToAboutMe">O Mnie</a></li>
-            <li><a href="Projekty" id="goToProjects">Projekty</a></li>
-            <li><a href="Kontakt" id="goToContact">Kontakt</a></li>
-        </ul>
+      <h1>Lenart Jan</h1>
+      <ul class="flexbox menu">
+        <li><a href="O mnie" id="goToAboutMe">O Mnie</a></li>
+        <li><a href="Projekty" id="goToProjects">Projekty</a></li>
+        <li><a href="Kontakt" id="goToContact">Kontakt</a></li>
+      </ul>
     </header>
     <main class="center">
-        <section class="aboutMe">
-            <div class="flexbox">
-                <div class="image-container">
-                    <img src="images/cv2.png" alt="That's me!">
-                </div>
-                <div class="contact flexbox">
-                    <a href="tel:+48881429875"><i class="demo-icon icon-phone-outline"></i>881 429 875</a>
-                    <span>&nbsp; / &nbsp; </span>
-                    <a href="mailto:jan.lenart.jl@gmail.com"><i
-                            class="demo-icon icon-mail"></i>jan.lenart.jl@gmail.com</a>
-                </div>
-                <div class="text-container">
-                    <p>Aktualnie jestem studentem pierwszego roku Informatyki na AGH w Krakowie. Wcześniej ukończyłem
-                        Technikum Informatyczne w Rabce-Zdroju, uzyskując tytuł technika informatyka (kwalifikacje
-                        INF.02 – sieci komputerowe i systemy operacyjne oraz INF.03 – aplikacje internetowe).
-                        Moim głównym językiem programowania jest JavaScript, a obecnie szlifuję swoje umiejętności w
-                        React.js. Solidnie znam HTML i CSS, a także SQL oraz relacyjne bazy danych. Potrafię również
-                        sprawnie korzystać z pakietu MS Office oraz MS Access. Dodatkowo posługuję się językiem Python
-                        na poziomie umożliwiającym realizację praktycznych zadań programistycznych.
-                    </p>
-                    <h3>Dyplomy, certyfikaty oraz ukończone kursy</h3>
-                    <ul>
-                        <li>Technik informatyk (INF.02, INF.03) - 97%</li>
-                    </ul>
-                </div>
+      <section class="aboutMe">
+        <div class="flexbox">
+          <div class="image-container">
+            <img src="images/cv2.png" alt="That's me!" />
+          </div>
+          <div class="contact flexbox">
+            <a href="tel:+48881429875"
+              ><i class="demo-icon icon-phone-outline"></i>881 429 875</a
+            >
+            <span>&nbsp; / &nbsp; </span>
+            <a href="mailto:jan.lenart.jl@gmail.com"
+              ><i class="demo-icon icon-mail"></i>jan.lenart.jl@gmail.com</a
+            >
+          </div>
+          <div class="text-container">
+            <p>
+              Aktualnie jestem studentem drugiego roku Informatyki na AGH w
+              Krakowie. Wcześniej ukończyłem Technikum Informatyczne w
+              Rabce-Zdroju, uzyskując tytuł technika informatyka (kwalifikacje
+              INF.02 – sieci komputerowe i systemy operacyjne oraz INF.03 –
+              aplikacje internetowe). Moim głównym językiem programowania jest
+              JavaScript, a obecnie szlifuję swoje umiejętności w React.js.
+              Solidnie znam HTML i CSS, a także SQL oraz relacyjne bazy danych.
+              Potrafię również sprawnie korzystać z pakietu MS Office oraz MS
+              Access.
+            </p>
+            <h3>Dyplomy, certyfikaty oraz ukończone kursy</h3>
+            <ul>
+              <li>Technik informatyk (INF.02, INF.03) - 97%</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="projects">
+        <h2>Projekty</h2>
+        <p class="additional">* Kliknij na tytuł, aby przejść do aplikacji</p>
+        <div class="projectGallery flexbox">
+          <a href="" target="blank" class="title animation"></a>
+          <div class="slideShow flexbox">
+            <button value="1">&lt;</button>
+            <div class="project flexbox">
+              <div class="slide"></div>
             </div>
-        </section>
-        <section class="projects">
-            <h2>Projekty</h2>
-            <p class="additional">* Kliknij na tytuł, aby przejść do aplikacji</p>
-            <div class="projectGallery flexbox">
-                <a href="" target='blank' class="title animation"></a>
-                <div class="slideShow flexbox">
-                    <button value="1">
-                        &lt; </button>
-                    <div class="project flexbox">
-                        <div class="slide"></div>
-                    </div>
-                    <button value="-1">></button>
-                </div>
-                <div class="infoBox animation">
-                </div>
-            </div>
-
-        </section>
+            <button value="-1">></button>
+          </div>
+          <div class="infoBox animation"></div>
+        </div>
+      </section>
     </main>
     <footer>
-        <p>Copyright<i class="demo-icon icon-copyright"></i>2025 Jan Lenart</p>
+      <p>Copyright<i class="demo-icon icon-copyright"></i>2025 Jan Lenart</p>
     </footer>
-</body>
-
+  </body>
 </html>
